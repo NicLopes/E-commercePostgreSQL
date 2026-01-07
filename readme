@@ -1,0 +1,95 @@
+📊 Análise de E-commerce com SQL
+
+Clientes, Faturamento, Pagamentos e Custos Logísticos
+
+📌 Descrição do Projeto
+
+Este projeto tem como objetivo analisar dados transacionais de um e-commerce utilizando SQL, com foco em comportamento de clientes, performance financeira, meios de pagamento e custos logísticos.
+
+A análise foi conduzida a partir de perguntas de negócio claras, transformando dados brutos em métricas relevantes para tomada de decisão.
+
+🗂️ Base de Dados
+
+O projeto utiliza as seguintes tabelas:
+
+Customers
+
+Orders
+
+Order Items
+
+Payments
+
+Products
+
+Os dados incluem informações de clientes, pedidos, pagamentos, produtos e frete.
+
+❓ Perguntas de Negócio Respondidas
+🔹 Análise de Clientes
+
+Quantos clientes únicos existem na base?
+
+
+Como os clientes estão distribuídos por cidade?
+
+Quais cidades concentram o maior volume de pedidos?
+
+Qual é o ticket médio por pedido?
+
+🔹 Análise Financeira
+
+Qual é o faturamento total da empresa?
+
+Quais categorias de produtos geram maior faturamento?
+
+Quais produtos são mais vendidos em quantidade?
+
+🔹 Análise de Pagamentos
+
+Qual a distribuição de pedidos por tipo de pagamento?
+
+Quantos pedidos foram pagos via cartão?
+
+Qual é o parcelamento médio em pagamentos com cartão de crédito?
+
+🔹 Análise Logística
+
+Qual é o frete médio por faixa de peso dos produtos vendidos?
+
+Quais categorias de produtos apresentam o maior frete médio por item vendido?
+
+🛠️ Abordagem Técnica
+
+As análises foram realizadas utilizando:
+
+JOIN entre múltiplas tabelas
+
+Funções de agregação (COUNT, SUM, AVG)
+
+Segmentações com CASE WHEN
+
+Cálculo de métricas financeiras e logísticas
+
+Boas práticas de legibilidade e organização de queries
+
+📈 Principais Insights
+
+O faturamento da empresa está concentrado em poucas categorias de produtos
+
+O ticket médio varia significativamente entre regiões com alto volume de pedidos
+
+Cartão de crédito é o principal meio de pagamento, com parcelamento médio relevante
+
+Produtos mais pesados apresentam frete médio significativamente maior, impactando o custo logístico
+
+Algumas categorias possuem frete médio elevado, o que pode afetar a margem
+
+🚀 Próximos Passos
+
+Analisar o custo de frete como percentual do valor do pedido
+
+Criar visualizações em Power BI / Tableau
+
+Segmentar análises por região/estado
+
+Avaliar impacto logístico na margem por categoria
